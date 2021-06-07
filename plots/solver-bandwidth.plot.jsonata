@@ -2,7 +2,7 @@
 $data_hip := content[dataset.executor="hip" and dataset.system="MI100_solvers"];
 $data_cuda := content[dataset.executor="cuda" and dataset.system="A100_solvers"];
 
-$solvers := $data_cuda.solver~>$keys();
+$solvers := $data_hip.solver~>$keys();
 
 $matrices := [
 "thermal2",
@@ -46,7 +46,7 @@ $memops := function($name, $n, $nnz, $it, $k, $vtype, $itype) {
 
 $plot := $solvers~>$map(function($v, $i) {{
   "label": $v,
-  "data": $data_cuda.{
+  "data": $data_hip.{
       "x": problem.name,
       "y": $memops($v, problem.rows, problem.nonzeros, (solver~>$lookup($v)).apply.iterations, 100, 8, 4) / ((solver~>$lookup($v)).apply.time/1000000000)
     },
@@ -58,7 +58,7 @@ $plot := $solvers~>$map(function($v, $i) {{
 }});
 
 $bw := $matrices~>$map(function($v, $i) {
-   $get_bandwidth("cuda")
+   $get_bandwidth("hip")
 });
 
 {
@@ -82,7 +82,7 @@ $bw := $matrices~>$map(function($v, $i) {
     },
     "title": {
       "display": true,
-      "text": "Bandwidth of selected problems for Ginkgo solvers on A100(CUDA)",
+      "text": "Bandwidth of selected problems for Ginkgo solvers on MI100(Hip)",
       "fontSize": 20
     },
     "tooltips": {
