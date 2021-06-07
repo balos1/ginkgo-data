@@ -1,6 +1,6 @@
 [
     {
-        "filename": "/home/users/coe0256/.config/ssget/MM/Freescale/FullChip/FullChip.mtx",
+        "filename": "/gpfs/alpine/csc317/scratch/balos1/TOMS-gko-reproduce/MM/Freescale/FullChip/FullChip.mtx",
         "problem": {
             "id": 2380,
             "group": "Freescale",
@@ -45,8 +45,8 @@
         "spmv": {
             "coo": {
                 "storage": 425951728,
-                "max_relative_norm2": 4.421743748208579e-17,
-                "time": 1184707.4,
+                "max_relative_norm2": 1.4739145229479244e-16,
+                "time": 1188056.3,
                 "completed": true
             }
         },
@@ -61,14 +61,14 @@
                 "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 10270.0
+                    "time": 6612.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 20144776789.0
+                    "time": 20400661102.0
                 },
-                "residual_norm": 61903.52222181805,
+                "residual_norm": 89447.0294722231,
                 "completed": true
             },
             "cg": {
@@ -78,14 +78,14 @@
                 "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 11680.0
+                    "time": 6453.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 21532174005.0
+                    "time": 21949309425.0
                 },
-                "residual_norm": 837457480.3859273,
+                "residual_norm": 126958690.98253638,
                 "completed": true
             },
             "cgs": {
@@ -95,14 +95,14 @@
                 "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 9270.0
+                    "time": 6582.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 20048549312.0
+                    "time": 20440228002.0
                 },
-                "residual_norm": 25354827146603.52,
+                "residual_norm": 4022699522693.4814,
                 "completed": true
             },
             "fcg": {
@@ -112,14 +112,14 @@
                 "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 12370.0
+                    "time": 7424.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 22882863926.0
+                    "time": 23287751198.0
                 },
-                "residual_norm": 8643499148021.321,
+                "residual_norm": 30599740722703.34,
                 "completed": true
             },
             "gmres": {
@@ -129,14 +129,14 @@
                 "rhs_norm": 997.8960839040759,
                 "generate": {
                     "components": {},
-                    "time": 13260.0
+                    "time": 7083.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 149575315983.0
+                    "time": 152288863651.0
                 },
-                "residual_norm": 995.9488522803778,
+                "residual_norm": 995.8963578722214,
                 "completed": true
             }
         }

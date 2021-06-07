@@ -1,6 +1,6 @@
 [
     {
-        "filename": "/home/users/coe0256/.config/ssget/MM/Rajat/rajat31/rajat31.mtx",
+        "filename": "/gpfs/alpine/csc317/scratch/balos1/TOMS-gko-reproduce/MM/Rajat/rajat31/rajat31.mtx",
         "problem": {
             "id": 1398,
             "group": "Rajat",
@@ -46,7 +46,7 @@
             "coo": {
                 "storage": 325060048,
                 "max_relative_norm2": 0.0,
-                "time": 1117510.0,
+                "time": 1115179.8,
                 "completed": true
             }
         },
@@ -61,12 +61,12 @@
                 "rhs_norm": 1250.5068732987809,
                 "generate": {
                     "components": {},
-                    "time": 9610.0
+                    "time": 5420.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 23369592577.0
+                    "time": 23307754895.0
                 },
                 "residual_norm": 0.0011323862560406837,
                 "completed": true
@@ -78,12 +78,12 @@
                 "rhs_norm": 1250.5068732987809,
                 "generate": {
                     "components": {},
-                    "time": 11090.0
+                    "time": 3938.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 24728024970.0
+                    "time": 24589907443.0
                 },
                 "residual_norm": 1.0964180242310313e-9,
                 "completed": true
@@ -95,12 +95,12 @@
                 "rhs_norm": 1250.5068732987809,
                 "generate": {
                     "components": {},
-                    "time": 10370.0
+                    "time": 5460.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 22206278699.0
+                    "time": 22332124287.0
                 },
                 "residual_norm": 0.0038405329553807918,
                 "completed": true
@@ -112,12 +112,12 @@
                 "rhs_norm": 1250.5068732987809,
                 "generate": {
                     "components": {},
-                    "time": 12029.0
+                    "time": 5150.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 27081452681.0
+                    "time": 26640577099.0
                 },
                 "residual_norm": 1.1272554555257312e-9,
                 "completed": true
@@ -129,12 +129,12 @@
                 "rhs_norm": 1250.5068732987809,
                 "generate": {
                     "components": {},
-                    "time": 12030.0
+                    "time": 5029.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 218329259774.0
+                    "time": 221976943388.0
                 },
                 "residual_norm": 4.455665302949543e-9,
                 "completed": true

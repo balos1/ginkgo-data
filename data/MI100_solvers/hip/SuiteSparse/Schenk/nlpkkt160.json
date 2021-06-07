@@ -1,6 +1,6 @@
 [
     {
-        "filename": "/home/users/coe0256/.config/ssget/MM/Schenk/nlpkkt160/nlpkkt160.mtx",
+        "filename": "/gpfs/alpine/csc317/scratch/balos1/TOMS-gko-reproduce/MM/Schenk/nlpkkt160/nlpkkt160.mtx",
         "problem": {
             "id": 1903,
             "group": "Schenk",
@@ -46,7 +46,7 @@
             "coo": {
                 "storage": 3606753792,
                 "max_relative_norm2": 0.0,
-                "time": 7537121.1,
+                "time": 7557771.4,
                 "completed": true
             }
         },
@@ -61,12 +61,12 @@
                 "rhs_norm": 1668.2462914567353,
                 "generate": {
                     "components": {},
-                    "time": 12391.0
+                    "time": 3216.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 115372437786.0
+                    "time": 116913106826.0
                 },
                 "residual_norm": 6.856636633693128,
                 "completed": true
@@ -78,12 +78,12 @@
                 "rhs_norm": 1668.2462914567353,
                 "generate": {
                     "components": {},
-                    "time": 12970.0
+                    "time": 7103.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 118481606368.0
+                    "time": 120080231960.0
                 },
                 "residual_norm": 75.57538891347434,
                 "completed": true
@@ -95,12 +95,12 @@
                 "rhs_norm": 1668.2462914567353,
                 "generate": {
                     "components": {},
-                    "time": 13131.0
+                    "time": 3757.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 114359209698.0
+                    "time": 115417060671.0
                 },
                 "residual_norm": 2487.844650545442,
                 "completed": true
@@ -112,12 +112,12 @@
                 "rhs_norm": 1668.2462914567353,
                 "generate": {
                     "components": {},
-                    "time": 13980.0
+                    "time": 3777.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 121391941735.0
+                    "time": 123003681103.0
                 },
                 "residual_norm": 186.41031477003623,
                 "completed": true
@@ -129,12 +129,12 @@
                 "rhs_norm": 1668.2462914567353,
                 "generate": {
                     "components": {},
-                    "time": 12140.0
+                    "time": 3927.0
                 },
                 "apply": {
                     "components": {},
                     "iterations": 10000,
-                    "time": 478464686935.0
+                    "time": 485137364989.0
                 },
                 "residual_norm": 16.819739222946056,
                 "completed": true
