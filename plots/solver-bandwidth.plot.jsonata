@@ -24,7 +24,7 @@ $floor := $string ~> $substringBefore(?, '.') ~> $number;
 
 $get_bandwidth := function($executor) {(
     $hip_bw := 980.516;
-    $cuda_bw := 1399.518;
+    $cuda_bw := 1732.806;
     $executor = "hip" ? $hip_bw : $executor = "cuda" ? $cuda_bw : -1
 )};
 
